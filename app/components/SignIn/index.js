@@ -5,7 +5,7 @@ import { schema, schemaUi } from './schemaData';
 class SignIn extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <div style={{ width: '50%', margin: 'auto' }}>
+      <div>
         <Form
           schema={schema}
           uiSchema={schemaUi}

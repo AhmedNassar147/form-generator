@@ -16,9 +16,13 @@ import SignUp from '../../components/SignUp/index';
 export class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <div>
-        <SignIn />
-        <SignUp />
+      <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
+        <div style={{ flex: 1, flexShrink: 1, maxWidth: 600 }}>
+          <SignIn />
+        </div>
+        <div style={{ flex: 1, flexShrink: 1, maxWidth: 600 }}>
+          <SignUp />
+        </div>
       </div>
     );
   }
