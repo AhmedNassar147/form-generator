@@ -1,5 +1,5 @@
 export const schema = {
-  title: 'SignInPage',
+  title: 'SignInForm',
   type: 'object',
   required: ['email', 'password'],
   properties: {

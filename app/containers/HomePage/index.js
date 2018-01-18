@@ -11,12 +11,14 @@ import reducer from './reducer';
 import saga from './saga';
 
 import SignIn from '../../components/SignIn/index';
+import SignUp from '../../components/SignUp/index';
 
 export class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
       <div>
         <SignIn />
+        <SignUp />
       </div>
     );
   }
